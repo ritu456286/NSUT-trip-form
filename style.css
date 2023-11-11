@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+body{
+    background-image: url("https://imgs.search.brave.com/Ybp-bn9yIGZan5CqqDv0kSXYSbW38OS7ujorILxWDqQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy81/LzUxL05TVVRfKGZv/cm1lcmx5X05TSVQp/LmpwZw");
+    z-index: -7;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trip-form{
+    background-color: rgba(204, 180, 227, 0.5);
+    max-width: 80%;
+    margin: auto;
+    margin-top: 22px;
+    padding: 3%;
+}
+.trip-form h1, h3{
+    text-align: center;
+    margin: 1%;
+    font-family:'Agbalumo', 'Courier New', Courier, monospace;
+    font-weight: 400;
+    
+}
+.trip-form h1{
+    font-size: 60px;
+    color:rgb(69, 69, 5);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+.form-grp{
+    margin: 1%;
+}
+.form-grp label{
+    font-weight: 600;
+}
+.form-grp input, textarea{
+    width: 30%;
+    margin: 0 4px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+   
+}
+.form-grp #fname{
+    margin-right: 5%;
+}
+.form-grp textarea{
+    width: auto;
+}
+.form-grp label{
+    margin-right: 8px;
+}
+
+button{
+    height: 40px;
+    font-size: large;
+    border-radius: 25px;
+    border: 3px solid orangered;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+button:hover{
+    color: white;
+    background-color: rgb(23, 22, 22);
+}
